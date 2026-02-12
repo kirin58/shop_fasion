@@ -1,0 +1,134 @@
+[
+  {
+    "sku": "M-TS-OVR-BLK",
+    "name": "Oversized Street T-Shirt",
+    "category": "Men",
+    "price": 490,
+    "stock": 20,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black", "White"],
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=500&q=80",
+    "tags": ["เสื้อยืด", "โอเวอร์ไซส์", "สตรีท", "สีดำ", "ผู้ชาย"]
+  },
+  {
+    "sku": "W-DR-FLR-PNK",
+    "name": "Floral Summer Dress",
+    "category": "Women",
+    "price": 790,
+    "stock": 5,
+    "sizes": ["S", "M"],
+    "colors": ["Pink"],
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=500&q=80",
+    "tags": ["เดรส", "ชุดกระโปรง", "ลายดอก", "สีชมพู", "ไปทะเล", "น่ารัก"]
+  },
+  {
+    "sku": "M-JN-SLM-BLU",
+    "name": "Slim Fit Jeans Dark Blue",
+    "category": "Men",
+    "price": 1290,
+    "stock": 8,
+    "sizes": ["30", "32", "34"],
+    "colors": ["Blue"],
+    "image": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?auto=format&fit=crop&w=500&q=80",
+    "tags": ["กางเกงยีนส์", "ยีนส์", "ขายาว", "สลิม", "สีน้ำเงิน"]
+  },
+  {
+    "sku": "W-CP-CRP-WHT",
+    "name": "Basic Crop Top White",
+    "category": "Women",
+    "price": 290,
+    "stock": 30,
+    "sizes": ["S", "M", "L"],
+    "colors": ["White", "Black"],
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80",
+    "tags": ["เสื้อครอป", "เอวลอย", "สีขาว", "ผู้หญิง", "y2k"]
+  },
+  {
+    "sku": "U-HD-PUL-GRY",
+    "name": "Classic Pullover Hoodie",
+    "category": "Unisex",
+    "price": 890,
+    "stock": 12,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Gray", "Navy"],
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=80",
+    "tags": ["เสื้อกันหนาว", "ฮู้ด", "สีเทา", "กันหนาว", "แขนยาว"]
+  },
+  {
+    "sku": "W-SK-MIN-BEI",
+    "name": "Minimalist Tennis Skirt",
+    "category": "Women",
+    "price": 450,
+    "stock": 15,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Beige", "White"],
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=500&q=80",
+    "tags": ["กระโปรง", "เทนนิส", "สีเบจ", "มินิมอล", "เกาหลี"]
+  },
+  {
+    "sku": "M-SH-LNN-WHT",
+    "name": "Linen Casual Shirt",
+    "category": "Men",
+    "price": 650,
+    "stock": 10,
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White", "Light Blue"],
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=500&q=80",
+    "tags": ["เสื้อเชิ้ต", "ผ้าลินิน", "สีขาว", "ใส่ทำงาน", "ไปทะเล"]
+  },
+  {
+    "sku": "A-CP-BSB-BLK",
+    "name": "NY Baseball Cap",
+    "category": "Accessories",
+    "price": 590,
+    "stock": 15,
+    "sizes": ["Free Size"],
+    "colors": ["Black"],
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=500&q=80",
+    "tags": ["หมวก", "หมวกแก๊ป", "สีดำ", "กันแดด"]
+  },
+  {
+    "sku": "A-BG-TTE-CNV",
+    "name": "Canvas Tote Bag",
+    "category": "Accessories",
+    "price": 390,
+    "stock": 25,
+    "sizes": ["Free Size"],
+    "colors": ["White", "Cream"],
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=500&q=80",
+    "tags": ["กระเป๋า", "ถุงผ้า", "มินิมอล", "สีขาว"]
+  },
+  {
+    "sku": "U-SN-WHT-01",
+    "name": "Retro White Sneakers",
+    "category": "Shoes",
+    "price": 2490,
+    "stock": 7,
+    "sizes": ["38", "39", "40", "41", "42"],
+    "colors": ["White"],
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=500&q=80",
+    "tags": ["รองเท้า", "ผ้าใบ", "สีขาว", "สนีกเกอร์"]
+  },
+  {
+    "sku": "M-ST-COT-GRN",
+    "name": "Cargo Shorts Green",
+    "category": "Men",
+    "price": 550,
+    "stock": 18,
+    "sizes": ["30", "32", "34", "36"],
+    "colors": ["Olive Green"],
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=500&q=80",
+    "tags": ["กางเกงขาสั้น", "คาร์โก้", "สีเขียว", "ลุยๆ"]
+  },
+  {
+    "sku": "W-JK-DM-BLU",
+    "name": "Vintage Denim Jacket",
+    "category": "Women",
+    "price": 1190,
+    "stock": 4,
+    "sizes": ["S", "M", "L"],
+    "colors": ["Denim Blue"],
+    "image": "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?auto=format&fit=crop&w=500&q=80",
+    "tags": ["แจ็คเก็ต", "ยีนส์", "แขนยาว", "วินเทจ"]
+  }
+]
