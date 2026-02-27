@@ -29,18 +29,6 @@ export async function POST(req: Request) {
 
     const data = await resp.json().catch(() => ({}));
 
-    // ถ้า n8n ส่ง action กลับมาว่าต้องการเพิ่มสินค้า ให้ resolve product จาก sku
-    // Expected n8n response shape (optional):
-    // {
-    //   reply: string,
-    //   action?: {
-    //     type: "ADD_TO_CART",
-    //     sku: string,
-    //     size?: string,
-    //     color?: string,
-    //     quantity?: number
-    //   }
-    // }
     if (data?.action?.type === "ADD_TO_CART" && data.action.sku) {
       const product = (products as any[]).find((p) => p.sku === data.action.sku);
       if (product) {
