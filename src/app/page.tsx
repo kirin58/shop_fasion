@@ -28,7 +28,7 @@ export default function Home() {
       setIsProcessing(true);
       setResult({ transcript });
       try {
-        const resp = await fetch("/api/shop", { 
+        const resp = await fetch("/api/voice", { 
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text: transcript }),
