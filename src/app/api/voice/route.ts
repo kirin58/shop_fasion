@@ -28,6 +28,34 @@ export async function POST(req: Request) {
     });
 
     const data = await resp.json().catch(() => ({}));
+
+    // ถ้า n8n ส่ง action กลับมาว่าต้องการเพิ่มสินค้า ให้ resolve product จาก sku
+    // Expected n8n response shape (optional):
+    // {
+    //   reply: string,
+    //   action?: {
+    //     type: "ADD_TO_CART",
+    //     sku: string,
+    //     size?: string,
+    //     color?: string,
+    //     quantity?: number
+    //   }
+    // }
+    if (data?.action?.type === "ADD_TO_CART" && data.action.sku) {
+      const product = (products as any[]).find((p) => p.sku === data.action.sku);
+      if (product) {
+        data.action.resolvedProduct = {
+          sku: product.sku,
+          name: product.name,
+          price: product.price,
+          image: product.image,
+          size: data.action.size ?? product.sizes[0],
+          color: data.action.color ?? product.colors[0],
+          quantity: data.action.quantity ?? 1,
+        };
+      }
+    }
+
     return NextResponse.json(data, { status: resp.ok ? 200 : resp.status });
   } catch (e: any) {
     return NextResponse.json({ error: e?.message ?? "Server error" }, { status: 500 });

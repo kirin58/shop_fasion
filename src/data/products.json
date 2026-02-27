@@ -130,5 +130,15 @@
     "colors": ["Denim Blue"],
     "image": "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?auto=format&fit=crop&w=500&q=80",
     "tags": ["แจ็คเก็ต", "ยีนส์", "แขนยาว", "วินเทจ"]
+  },
+  {
+    "reply": "เพิ่ม Oversized T-Shirt ลงตะกร้าให้แล้วนะคะ",
+    "action": {
+      "type": "ADD_TO_CART",
+      "sku": "M-TS-OVR-BLK",
+      "size": "L",
+      "color": "Black",
+      "quantity": 1
+    }
   }
 ]
