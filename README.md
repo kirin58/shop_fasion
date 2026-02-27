@@ -1,37 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Petit Closet
 
-## Getting Started
+**Petit Closet** คือโปรเจกต์เว็บแอปพลิเคชันร้านขายเสื้อผ้าสไตล์มินิมอล ที่ออกแบบมาให้เรียบง่าย สบายตา (Earth Tone) และมาพร้อมกับประสบการณ์การช้อปปิ้งยุคใหม่ด้วยฟีเจอร์ **Voice-Powered Shopping** (ค้นหาสินค้าด้วยเสียง)
 
-First, run the development server:
+## ✨ ฟีเจอร์เด่น (Features)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎤 **Voice-Powered Search:** ค้นหาเสื้อผ้าหรือสไตล์ที่ต้องการด้วยคำสั่งเสียงภาษาไทย (เช่น "อยากได้เดรสไปทะเล" หรือ "เสื้อยืดสีขาวมินิมอล") ผ่าน Web Speech API
+- 🎨 **Minimalist UI/UX:** ดีไซน์หน้าเว็บที่สะอาดตา เน้นโทนสี Stone/Beige ให้ความรู้สึกอบอุ่นและพรีเมียม
+- 🛍️ **Interactive Product Grid:** การ์ดแสดงสินค้าพร้อมแอนิเมชันเมื่อนำเมาส์ไปชี้ (Hover effects) และปุ่มเพิ่มลงตะกร้าแบบมินิมอล
+- 📱 **Responsive Design:** รองรับการใช้งานที่ลื่นไหลบนทุกขนาดหน้าจอ (มือถือ, แท็บเล็ต, เดสก์ท็อป)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# shop_fasion" 
+- **Framework:** [Next.js](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Voice Recognition:** Web Speech API (รองรับภาษาไทย)
